@@ -1,0 +1,119 @@
+body {	
+	background-image: url('img/bg.png');
+	color: #000305; /*preto*/
+	font-size: 87.5%; /* Tamanho padrão é: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	text-align: left;
+}
+.corpo{
+	margin: 0 auto;
+	width: 70%;
+	clear:both;
+}
+.cabecalho_principal nav {
+	background: #666; /*chumbo*/
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px; /*borda arredondada*/
+	-moz-border-radius: 5px; ; /*Mozzila*/
+	-webkit-border-radius: 5px; ; /*Chrome*/
+}
+.cabecalho_principal nav ul{
+	list-style: none; 
+	margin: 0 auto;
+}
+.cabecalho_principal nav li {
+	float: left; 
+	display: inline; 
+}
+.cabecalho_principal nav a:link, .cabecalho_principal nav a:visited {
+	color: #fff; /*Branco*/
+	display: inline-block;
+	height: 30px; 
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.cabecalho_principal nav a:hover, 
+.cabecalho_principal nav a:active,
+.cabecalho_principal nav .active a:link, .cabecalho_principal nav .active a:visited {
+	background: #CF5C3F; /*laranja*/
+	color: #fff; /*branco*/
+	text-shadow: none;
+}
+.cabecalho_principal img {
+	width: 30%;
+	height: auto;
+	margin: 3% 0;
+}
+.conteudo_principal {
+	overflow: hidden; /*Previne que um conteiner sobreponha o outro*/
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.conteudo_topo, .conteudo_meio {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;	
+	margin-bottom: 3%;
+}
+.conteudo {
+	width: 68%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+.post_info {
+	font-style: italic;
+	color: #999; /*cinza claro*/
+	font-size: 85%;
+}
+.topo_sidebar, .meio_sidebar, .baixo_sidebar {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #FFF;	/*branco*/
+	padding: 2% 3%;
+	margin-bottom: 2%;
+}
+.rodape_principal {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #666; /*chumbo*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	color: #FFF;	
+}
+@media only screen and (min-width : 150px) and (max-width : 780px){
+	.corpo {
+		clear: both; 
+		margin: 0 auto; 
+		width: 90%;
+		font-size: 90%;
+	}
+	.cabecalho_principal nav {
+	background: #666; /*chumbo*/
+	font-size: 0.543em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	border-radius: 1px; /*borda arredondada*/
+	-moz-border-radius: 1px; ; /*Mozzila*/
+	-webkit-border-radius: 1px; ; /*Chrome*/
+}
